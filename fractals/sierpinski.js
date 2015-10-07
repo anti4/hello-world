@@ -7,18 +7,18 @@ window.onload = function() {
 	context.translate(width / 2, height / 2);
 	var p0 = {
 			x: 0,
-			y: -321
+			y: -(height*1/3)
 		},
 		p1 = {
-			x: 278,
-			y: 160
+			x: (height*1/3),
+			y: (height*1/3)
 		},
 		p2 = {
-			x: -278,
-			y: 160
+			x: -(height*1/3),
+			y: (height*1/3)
 		};
 
-	sierpinski(p0, p1, p2, 8);
+	sierpinski(p0, p1, p2, 4);
 
 	function sierpinski(p0, p1, p2, limit) {
 		if(limit > 0) {
