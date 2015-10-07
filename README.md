@@ -1,2 +1,2 @@
 # hello-world
-Coding hype
+coding hype
