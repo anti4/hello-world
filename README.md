@@ -1,3 +1,3 @@
-# hello-world
-coding hype
-basically i'll throw everything in here lol
+# Hello World
+My first GitHub repostitory!
+Basically I'll throw all the junk in here.
