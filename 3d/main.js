@@ -108,7 +108,7 @@ window.onload = function() {
   document.body.addEventListener("mousemove", function(event) {
     var dx = width / 2 - event.clientX,
       dy = height / 2 - event.clientY;
-    rotX = -dy / 4000;
-    rotY = -dx / 4000;
+    rotX = -dy / 4200;
+    rotY = -dx / 4200;
   });
 };
